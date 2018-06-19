@@ -31,7 +31,7 @@ img{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width:1440px){
   body{
     font-size: 40px;
   }

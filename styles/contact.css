@@ -29,7 +29,7 @@ body{
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1440px){
   body{
     font-size: 40px;
   }

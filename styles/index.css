@@ -28,9 +28,9 @@ body{
 }
 
 #introduction{
-  padding-top: 35vh;
+  padding-top: 10vh;
   margin: 0px 15px 0px 165px;
-  width: 500px;
+  width: 65vw;
 
 }
 
@@ -54,14 +54,11 @@ body{
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1440px){
   body{
     font-size: 40px;
   }
   #introduction{
-    padding-top: 20vh;
     margin: 0px 15px 0px 165px;
-    width: 500px;
-
   }
 }
