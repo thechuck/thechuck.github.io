@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; }
+
+body{
+  background: #FFF;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0 0;
+  color: #404040;
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+#contact{
+  color: #0C77FF;
+  transform: translateX(200px);
+}
+
+.contact-button a{
+  cursor: default;
+}
+
+ .fa-envelope{
+  color: #0C77FF;
+  cursor: default;
+}
+
+.contact-button:hover .fa-envelope{
+
+  transform: scale(1);
+
+}

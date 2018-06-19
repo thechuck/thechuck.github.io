@@ -1,0 +1,137 @@
+
+nav{
+  float: left;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  min-width: 150px;
+  min-height: 100vh;
+  background: #404040;
+  margin: 0 auto;
+
+}
+
+
+nav:hover  #home{
+  color: #F006FF;
+  transform: translateX(200px);
+  transition-duration: .25s;
+}
+nav:hover  #snippet{
+  color: #E85C0C;
+  transform: translateX(200px);
+  transition-duration: .5s;
+}
+nav:hover  #gallery{
+  color: #FFE700;
+  transform: translateX(200px);
+  transition-duration: .75s;
+}
+nav:hover  #tutorials{
+  color: #0CE846;
+  transform: translateX(200px);
+  transition-duration: 1s;
+}
+nav:hover  #contact{
+  color: #0C77FF;
+  transform: translateX(200px);
+  transition-duration: 1.25s;
+}
+
+
+nav:hover .fa-home{
+  color: #F006FF;
+  transition-duration: .25s;
+}
+
+nav:hover  .fa-code{
+  color: #E85C0C;
+  transition-duration: .5s;
+}
+nav:hover  .fa-image{
+  color: #FFE700;
+  transition-duration: .75s;
+}
+nav:hover  .fa-map{
+  color: #0CE846;
+  transition-duration: 1s;
+}
+nav:hover  .fa-envelope{
+  color: #0C77FF;
+  transition-duration: 1.25s;
+}
+
+
+
+.home-button:hover .fa-home{
+  color: #E500F9;
+  transform: scale(.85);
+  transition-duration: .15s;
+}
+
+
+.snippet-button:hover .fa-code{
+  color: #E35707;
+  transform: scale(.85);
+  transition-duration: .15s;
+}
+
+.gallery-button:hover .fa-image{
+  color: #FAE200;
+  transform: scale(.85);
+  transition-duration: .15s;
+}
+
+.tutorials-button:hover .fa-map{
+  color: #07E341;
+  transform: scale(.85);
+  transition-duration: .15s;
+}
+
+.contact-button:hover .fa-envelope{
+  color: #0772FA;
+  transform: scale(.85);
+  transition-duration: .15s;;
+}
+
+ul{
+  list-style: none;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+li{
+  font-size: 2em;
+  box-sizing: content-box;
+  display:block;
+  width:100px;
+  height:100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nav-list{
+  box-sizing: content-box;
+  display:block;
+  height:100%;
+}
+
+a{
+  color: #EEE;
+  text-decoration: none;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.menu-text{
+  font-size: .3em;
+  margin-left: -400px;
+}
+
+.nav-container{
+margin-left: 0px;
+padding-left: 0px;
+}

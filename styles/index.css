@@ -1,0 +1,57 @@
+* { margin: 0; padding: 0; }
+
+body{
+  background: #FFF;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0 0;
+  color: #404040;
+  font-size: 25px;
+  height: 100vh;
+}
+
+ .fa-home{
+  color:  #F006FF;
+}
+
+.home-button {
+  cursor: default;
+}
+
+#home{
+  transform: translateX(200px);
+  color:  #F006FF
+}
+
+.home-button:hover .fa-home{
+ color:  #F006FF;
+ transform: scale(1);
+}
+
+#introduction{
+  padding-top: 35vh;
+  margin: 0px 15px 0px 165px;
+  width: 500px;
+
+}
+
+#intro-header{
+  position:relative;
+  width: 100%;
+  display: none;
+}
+
+#introduction h3{
+  display: none;
+}
+
+#p1{
+  display: none;
+}
+
+#p2{
+  display: none;
+}
+
+#canvas{
+  
+}

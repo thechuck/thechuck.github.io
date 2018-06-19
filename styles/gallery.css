@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; }
+
+body{
+  background: #FFF;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0 0;
+  color: #404040;
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+#gallery{
+  color: #FFE700;
+  transform: translateX(200px);
+}
+
+.gallery-button a{
+  cursor: default;
+}
+
+ .fa-image{
+  color: #FFE700;
+  cursor: default;
+}
+.gallery-button:hover .fa-image{
+  transform: scale(1);
+}
