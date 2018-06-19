@@ -35,9 +35,7 @@ body{
 }
 
 #intro-header{
-  position:relative;
-  width: 100%;
-  display: none;
+  margin-bottom: 10px;
 }
 
 #introduction h3{
@@ -53,5 +51,17 @@ body{
 }
 
 #canvas{
-  
+
+}
+
+@media screen and (max-width: 800px){
+  body{
+    font-size: 40px;
+  }
+  #introduction{
+    padding-top: 20vh;
+    margin: 0px 15px 0px 165px;
+    width: 500px;
+
+  }
 }

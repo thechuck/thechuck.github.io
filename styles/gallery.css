@@ -9,6 +9,10 @@ body{
   min-height: 100vh;
 }
 
+img{
+ margin-top: 20px;
+}
+
 #gallery{
   color: #FFE700;
   transform: translateX(200px);
@@ -25,3 +29,37 @@ body{
 .gallery-button:hover .fa-image{
   transform: scale(1);
 }
+
+
+@media screen and (max-width: 768px){
+  body{
+    font-size: 40px;
+  }
+
+
+}
+
+.container{
+padding-top: 50px;
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px){}
+  .container {
+     max-width: 100%;
+   }
+}
+@media (min-width: 768px){
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px){
+  .container {
+     max-width: 100%;
+   }
+ }
