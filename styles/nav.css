@@ -38,7 +38,6 @@ nav:hover  #contact{
   transition-duration: 1.25s;
 }
 
-
 nav:hover .fa-home{
   color: #F006FF;
   transition-duration: .25s;
@@ -61,14 +60,11 @@ nav:hover  .fa-envelope{
   transition-duration: 1.25s;
 }
 
-
-
 .home-button:hover .fa-home{
   color: #E500F9;
   transform: scale(.85);
   transition-duration: .15s;
 }
-
 
 .snippet-button:hover .fa-code{
   color: #E35707;
@@ -113,7 +109,7 @@ li{
 .nav-list{
   box-sizing: content-box;
   display:block;
-  height:100%;
+  height:100vh;
 }
 
 a{
@@ -136,12 +132,10 @@ margin-left: 0px;
 padding-left: 0px;
 }
 
-@media screen and (max-width: 800px){
-  body{
-    font-size: 40px;
-  }
+@media screen and (max-width: 1440px){
   li{
-    padding-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 50px;
   }
 
 }

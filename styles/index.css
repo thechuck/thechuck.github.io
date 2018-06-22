@@ -30,12 +30,12 @@ body{
 #introduction{
   padding-top: 10vh;
   margin: 0px 15px 0px 165px;
-  width: 65vw;
+  width: 1000px;
 
 }
 
 #intro-header{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #introduction h3{
@@ -60,5 +60,6 @@ body{
   }
   #introduction{
     margin: 0px 15px 0px 165px;
+    width: 65vw;
   }
 }

@@ -34,3 +34,9 @@ body{
     font-size: 40px;
   }
 }
+
+.container{
+  padding-top: 10vh;
+  margin: 0px 15px 0px 165px;
+  width: 1000px;
+}
