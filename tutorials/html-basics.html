@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML basics | Charles Herb</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron"
+           rel="stylesheet">
+
+    <link rel="stylesheet"
+       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+       crossorigin="anonymous">
+
+    <link rel="stylesheet"
+     href="../styles/htmlbasics.css"
+     type="text/css">
+
+    <link rel="stylesheet"
+       href="../styles/nav.css"
+       type="text/css" />
+
+  </head>
+  <body>
+    <nav >
+      <ul id='navlist'>
+        <li class='home-button' ><a class='nav-list' href="../index.html"><i class="fa fa-home"></i><div id='home' class= "menu-text ">Home</div></a></li>
+        <!--   <li class='snippet-button'>
+                 <a class='nav-list' href="./code.html">
+                   <i class="fa fa-code"></i>
+                   <div id='snippet' class= "menu-text ">
+                     Snippets</div></a></li> -->
+        <li class='gallery-button'><a class='nav-list' href="../gallery.html"><i class="fa fa-image"></i><div id='gallery' class= "menu-text ">Gallery</div></a></li>
+        <li class='tutorials-button'><a class='nav-list' href="../tutorials.html"><i class="fa fa-map"></i><div id='tutorials' class= "menu-text ">Tutorials</div></a></li>
+        <li class='contact-button'><a class='nav-list' href="../contact.html" ><i class="fa fa-envelope"></i><div id='contact' class= "menu-text ">Contact Me</div></a></li>
+      </ul>
+    </nav>
+
+    <main>
+    <h1>HTML basics</h1>
+    <section>
+    <h2>What is HTML?</h2>
+      <p>HTML stands for Hypertext Markup Language and it was developed for formatting documents.  It was originally designed to standardize formatting of scientific articles in the early days of the internet.
+    </section>
+    <secton>
+    <h2> Naming your HTML file</h2>
+      <p>When naming your html file there are a few things you should consider: </p>
+    <ul>
+      <li> An html document name becomes part of the URL so when naming your file make sure your name is descriptive. This will also help you when it comes to maintenance.</li>
+      <li> Use only letters (a-z), numbers (0-9) and if needed underscores(_), hyphens(-) an periods(.).</li>
+      <li> While most operating systems allow you to use spaces in filenames you should not use spaces in the name of an html file.</li>
+      <li> You also should not start your html filenames with special characters or numbers.  Some programing languages will not treat names starting with numbers as files and so will not load the page correctly.
+      <li> Use lowercase letters.  Web servers are case sensitive.  It becomes easier to write your webpages if you don't have to remember whether you filename was upper or lower case.</li>
+      <li> Using hyphens to separate diferent words in your filename can help when search engines read your URL improving your search engine optimization (SEO).</li>
+    </ul>
+    </section>
+    <section>
+      <h2>What do I need in my HTML file?</h2>
+      <p>You don't really need a lot for an HTML file to load.</p>
+      <figure>
+        <pre>
+          <code>
+            &lt;!DOCTYPE html&gt;
+
+            &lt;html lan=&quot;en&quot;&gt;
+              &lt;head&gt;
+                &lt;meta charset=&quot;utf-8&quot;&gt;
+                &lt;title&gt;title&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+                Hello World!
+              &lt;/body&gt;
+            &lt;/html&gt;
+          </code>
+        </pre>
+      </figure>
+
+
+
+    <p>The first line of your file needs the DOCTYPE tag &lt;!DOCTYPE html&gt;.  This tells the browser which version of HTML to expect from the document. <p>
+      <p> Next after DOCTYPE comes the opening html tag &lt;html lang=&quot;en&quot;&gt; note that inside the tag we set the language attribute. Many element tags have attributes that we set when we use the opening tag.  We will go over important attributes when learning about element tags.  You are encouraged to research more at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></p>
+      <p> Next we start the document header with the &lt;head&gt; tag.
+      <p> The first element in the header is the meta tag that specifies the character encoding of the page &lt;meta charset=&quot;utf-8&quot;&gt;.  This makes sure the document is displayed correctly.  </p>
+      <p> After the meta tag come to the title element &lt;title&gt;.  The text written between the opening and closing title tags will be displayed at the top of the browser when the page is loaded.  In the example above it is simply the word title.  This is also where we use our first closing tag.  The closing tag looks almost exactly like the opening tag but has a / &lt;/title&gt;.
+      <p>  That is all we need for the head section of the document.  There are other things that we usually place in the head like links to stylesheets or scripts but we will discuss that when we talk about CSS and JavaScript.  Since we aren't using them here we will use the closing tag &lt;/head&gt; to indicate the head section is finished </p>
+      <p> Following the head we have the body of the document.  This is the main section of the page and is where we will be putting our content.  We open it with the  &lt;body&gt; tag.  The content placed between the opening and closing body tags is what we expect to see in the browser.  In our example above we expect the browser to display the text "Hello World!".  Normally we would place the text inside other element tags to allow styling and provide context to the content.</p>
+      <p> Finally we end the document with the closing HTML tag &lt;/html&gt;</p>
+    </section>
+<p>
+  That's it!  That's is all we need to create an HTML file that will load in the browser.  It may not be an awesome website yet but it's a start! In the <a href="html-elements.html">next lesson</a> we will go into more HTML element tags and when to use them.
+</p>
+
+  </main>
+  <div><a href="./html-elements.html">html-elements</a></div>
+  </body>
+</html>

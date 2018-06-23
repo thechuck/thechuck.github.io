@@ -10,9 +10,9 @@ body{
 
 }
 
-#contact{
-  color: #0C77FF;
-  transform: translateX(200px);
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-button a{
@@ -25,19 +25,11 @@ body{
 }
 
 .contact-button:hover .fa-envelope{
-
   transform: scale(1);
-
-}
-
-@media screen and (max-width: 1440px){
-  body{
-    font-size: 40px;
-  }
 }
 
 .container{
-  padding-top: 10vh;
+  padding-top: 50px;
   margin: 0px 15px 0px 165px;
   width: 1000px;
 }
@@ -46,7 +38,17 @@ body{
   color: blue;
 }
 
-p{
-  margin-top: 10px;
-  margin-bottom: 10px;
+@media screen and (max-width: 1440px){
+  body{
+    font-size: 40px;
+  }
+  .container{
+    margin: 0px 15px 0px 165px;
+    width: 65vw;
+  }
+}
+
+#contact{
+  color: #0C77FF;
+  transform: translateX(200px);
 }

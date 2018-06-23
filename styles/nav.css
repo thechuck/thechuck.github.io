@@ -8,7 +8,7 @@ nav{
   min-height: 175vh;
   background: #404040;
   margin: 0 auto;
-
+  font-size: 25px;
 }
 
 
@@ -90,13 +90,13 @@ nav:hover  .fa-envelope{
   transition-duration: .15s;;
 }
 
-ul{
+nav ul{
   list-style: none;
   padding-top: 100px;
   margin: 0 auto;
 }
 
-li{
+nav li{
   font-size: 2em;
   box-sizing: content-box;
   display:block;
@@ -112,12 +112,12 @@ li{
   height:100vh;
 }
 
-a{
+nav a{
   color: #EEE;
   text-decoration: none;
 }
 
-p{
+nav p{
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -133,9 +133,12 @@ padding-left: 0px;
 }
 
 @media screen and (max-width: 1440px){
-  li{
+  nav li{
     font-size: 1.5em;
     padding-bottom: 50px;
+  }
+  nav{
+      font-size: 40px;
   }
 
 }
