@@ -65,16 +65,14 @@ body{
 
 .p1{
   display: none;
+  margin-bottom: 20px;
 }
 
 .p2{
   display: none;
+  margin-bottom: 20px;
 }
 
-div{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 @media screen and (max-width: 1440px){
   body{

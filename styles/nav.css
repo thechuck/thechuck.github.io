@@ -85,6 +85,7 @@ nav:hover  .fa-envelope{
           transition-duration: .15s;
 }
 
+
 .gallery-button:hover .fa-image{
   color: #FAE200;
   -webkit-transform: scale(.85);

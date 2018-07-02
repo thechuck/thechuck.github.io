@@ -38,6 +38,10 @@ img{
           transform: translateX(200px);
 }
 
+p{
+  fort-size: .75em;
+}
+
 .gallery-button a{
   cursor: default;
 }
@@ -62,7 +66,8 @@ img{
 }
 
 .container{
-padding-top: 50px;
+  padding-top: 50px;
+  font-size: 25px;
 }
 
 @media (min-width: 1200px){
