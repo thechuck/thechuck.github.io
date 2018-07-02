@@ -1,9 +1,15 @@
 
 nav{
   float: left;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   min-width: 150px;
   min-height: 175vh;
   background: #404040;
@@ -12,67 +18,101 @@ nav{
 }
 
 nav:hover .menu-text{
-transform: translateX(200px);
+-webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+        transform: translateX(200px);
 }
 
 nav:hover  #home{
   color: #F006FF;
-  transition-duration: .25s;
+  -webkit-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s;
 }
 
 nav:hover  #gallery{
   color: #FFE700;
-  transition-duration: .5s;
+  -webkit-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
 }
 nav:hover  #tutorials{
   color: #0CE846;
-  transition-duration: .75s;
+  -webkit-transition-duration: .75s;
+       -o-transition-duration: .75s;
+          transition-duration: .75s;
 }
 nav:hover  #contact{
   color: #0C77FF;
-  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 nav:hover .fa-home{
   color: #F006FF;
-  transition-duration: .25s;
+  -webkit-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s;
 }
 
 nav:hover  .fa-image{
   color: #FFE700;
-  transition-duration: .5s;
+  -webkit-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
 }
 nav:hover  .fa-map{
   color: #0CE846;
-  transition-duration: .75s;
+  -webkit-transition-duration: .75s;
+       -o-transition-duration: .75s;
+          transition-duration: .75s;
 }
 nav:hover  .fa-envelope{
   color: #0C77FF;
-  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .home-button:hover .fa-home{
   color: #E500F9;
-  transform: scale(.85);
-  transition-duration: .15s;
+  -webkit-transform: scale(.85);
+      -ms-transform: scale(.85);
+          transform: scale(.85);
+  -webkit-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;
 }
 
 .gallery-button:hover .fa-image{
   color: #FAE200;
-  transform: scale(.85);
-  transition-duration: .15s;
+  -webkit-transform: scale(.85);
+      -ms-transform: scale(.85);
+          transform: scale(.85);
+  -webkit-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;
 }
 
 .tutorials-button:hover .fa-map{
   color: #07E341;
-  transform: scale(.85);
-  transition-duration: .15s;
+  -webkit-transform: scale(.85);
+      -ms-transform: scale(.85);
+          transform: scale(.85);
+  -webkit-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;
 }
 
 .contact-button:hover .fa-envelope{
   color: #0772FA;
-  transform: scale(.85);
-  transition-duration: .15s;;
+  -webkit-transform: scale(.85);
+      -ms-transform: scale(.85);
+          transform: scale(.85);
+  -webkit-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;;
 }
 
 nav ul{
@@ -83,7 +123,8 @@ nav ul{
 
 nav li{
   font-size: 2em;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   display:block;
   width:100px;
   height:100px;
@@ -92,7 +133,8 @@ nav li{
 }
 
 .nav-list{
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   display:block;
   height:100vh;
 }

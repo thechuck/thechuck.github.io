@@ -13,7 +13,6 @@ time, mark, audio, video {
     margin:0;
     padding:0;
     border:0;
-    outline:0;
     font-size:100%;
     vertical-align:baseline;
 }
@@ -35,40 +34,44 @@ body{
   cursor: default;
 }
 
-#home{
-  transform: translateX(200px);
+.home{
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
   color:  #F006FF
 }
 
 .home-button:hover .fa-home{
  color:  #F006FF;
- transform: scale(1);
+ -webkit-transform: scale(1);
+     -ms-transform: scale(1);
+         transform: scale(1);
 }
 
-#introduction{
+.introduction{
   padding-top: 10vh;
-  margin: 0px 15px 0px 165px;
+  margin: 0 15px 0 165px;
   width: 1000px;
 
 }
 
-#intro-header{
+.intro-header{
   margin-bottom: 30px;
 }
 
-#introduction h3{
+.introduction .heading{
   display: none;
 }
 
-#p1{
+.p1{
   display: none;
 }
 
-#p2{
+.p2{
   display: none;
 }
 
-p{
+div{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -77,8 +80,8 @@ p{
   body{
     font-size: 40px;
   }
-  #introduction{
-    margin: 0px 15px 0px 165px;
+  .introduction{
+    margin: 0 15px 0 165px;
     width: 65vw;
   }
 }

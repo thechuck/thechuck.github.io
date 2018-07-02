@@ -33,7 +33,9 @@ img{
 
 #gallery{
   color: #FFE700;
-  transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
 }
 
 .gallery-button a{
@@ -45,7 +47,9 @@ img{
   cursor: default;
 }
 .gallery-button:hover .fa-image{
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 
 

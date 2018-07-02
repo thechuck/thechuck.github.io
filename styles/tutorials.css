@@ -29,7 +29,9 @@ body{
 
 #tutorials{
   color: #0CE846;
-  transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
 }
 
 .tutorials-button a{
@@ -42,7 +44,9 @@ body{
 }
 
 .tutorials-button:hover .fa-map{
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 
 }
 

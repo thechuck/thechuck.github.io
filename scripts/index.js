@@ -23,8 +23,8 @@ $( document ).ready(function() {
     typeEffect($('h3'), speed);
   }, delay);
   setTimeout(function(){
-    $("#p1").css('display', 'inline-block');
-    $("#p2").css('display', 'inline-block');
+    $(".p1").css('display', 'inline-block');
+    $(".p2").css('display', 'inline-block');
 
   }, delay2);
 

@@ -43,7 +43,9 @@ p{
 }
 
 .contact-button:hover .fa-envelope{
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 
 .container{
@@ -68,5 +70,7 @@ p{
 
 #contact{
   color: #0C77FF;
-  transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
 }
