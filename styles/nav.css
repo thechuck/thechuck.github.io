@@ -11,31 +11,26 @@ nav{
   font-size: 25px;
 }
 
+nav:hover .menu-text{
+transform: translateX(200px);
+}
 
 nav:hover  #home{
   color: #F006FF;
-  transform: translateX(200px);
   transition-duration: .25s;
 }
-nav:hover  #snippet{
-  color: #E85C0C;
-  transform: translateX(200px);
-  transition-duration: .5s;
-}
+
 nav:hover  #gallery{
   color: #FFE700;
-  transform: translateX(200px);
-  transition-duration: .75s;
+  transition-duration: .5s;
 }
 nav:hover  #tutorials{
   color: #0CE846;
-  transform: translateX(200px);
-  transition-duration: 1s;
+  transition-duration: .75s;
 }
 nav:hover  #contact{
   color: #0C77FF;
-  transform: translateX(200px);
-  transition-duration: 1.25s;
+  transition-duration: 1s;
 }
 
 nav:hover .fa-home{
@@ -43,31 +38,21 @@ nav:hover .fa-home{
   transition-duration: .25s;
 }
 
-nav:hover  .fa-code{
-  color: #E85C0C;
-  transition-duration: .5s;
-}
 nav:hover  .fa-image{
   color: #FFE700;
-  transition-duration: .75s;
+  transition-duration: .5s;
 }
 nav:hover  .fa-map{
   color: #0CE846;
-  transition-duration: 1s;
+  transition-duration: .75s;
 }
 nav:hover  .fa-envelope{
   color: #0C77FF;
-  transition-duration: 1.25s;
+  transition-duration: 1s;
 }
 
 .home-button:hover .fa-home{
   color: #E500F9;
-  transform: scale(.85);
-  transition-duration: .15s;
-}
-
-.snippet-button:hover .fa-code{
-  color: #E35707;
   transform: scale(.85);
   transition-duration: .15s;
 }
