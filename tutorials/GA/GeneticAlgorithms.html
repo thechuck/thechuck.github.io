@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron"
+       rel="stylesheet">
+    <link rel="stylesheet"
+       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+       crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/nav.css"  type="text/css" />
+     <link href="../tutorialstyle.css" rel="stylesheet">
+    <title>Charles Herb-genetic algorithms</title>
+  </head>
+  <body>
+    <div class='nav-container'>
+        <nav >
+          <ul id='navlist'>
+            <li class='home-button' ><a class='nav-list' href="../../index.html"><i class="fa fa-home"></i><div id='home' class= "menu-text ">Home</div></a></li>
+            <li class='gallery-button'><a class='nav-list' href="../../gallery.html"><i class="fa fa-image"></i><div id='gallery' class= "menu-text ">Gallery</div></a></li>
+            <li class='tutorials-button'><a class='nav-list' href="../../tutorials.html"><i class="fa fa-map"></i><div id='tutorials' class= "menu-text ">Tutorials</div></a></li>
+            <li class='contact-button'><a class='nav-list' href="../../contact.html" ><i class="fa fa-envelope"></i><div id='contact' class= "menu-text ">Contact Me</div></a></li>
+          </ul>
+        </nav>
+    <main>
+      <section class="content">
+        <h1>Genetic Algorithms</h1>
+        <h3>What exactly is a Genetic Algorithm</h3>
+        <p>Genetic algorithms are an Artificial Intelligence technique that utilizes natural selection.&nbsp;&nbsp;They attempt to determine the best results based
+        on results of a large number of trials in which the most successful actors are used to create new actors. </p>
+        <p> We create a generation of actors and give them random DNA values.&nbsp;&nbsp;Next a trial is conducted to test the fitness of these actors.&nbsp;&nbsp;The most succesful actors are chosen to breed together to create a new generation.&nbsp;&nbsp;We then repeat the process with the new generation.&nbsp;&nbsp;We occasionaly change part of the DNA by introducing a mutation.&nbsp;&nbsp;
+          This cycle until we reach our desired outcome.&nbsp;&nbsp;</p>
+        <p>Say we had a game where you were told to click on a creature closest to your favorite color. You click first on the creatures that are closest to your favorite color until time runs out.&nbsp;&nbsp;We then start a new round and you again select the creatures closest to your favorite color.&nbsp;&nbsp;With each round that passes our program should produce more creatures that are close to your favorite color</p>
+
+        <h3>DNA</h3>
+        <p>Imitating how animals evolve in real life GAs use a gene sequence refered to as DNA.&nbsp;&nbsp;This gene sequence is made up of the variables we are
+        changing with each new generaton in the trial.&nbsp;&nbsp;
+
+        <p>In our color game example the DNA could be given as an RGB color code.&nbsp;&nbsp;The individual genes in the DNA would be the R, G, and B values.</p>
+
+        <h3>Fitness Function </h3>
+        <p>The fitness function is how we are testing each generation.&nbsp;&nbsp;This function tests our actor based on their DNA.&nbsp;&nbsp;It then returns a sorted collection of
+          the most successful actors"</p>
+        <p>In our color game example the function would maintain a timer and return a sorted list of the creatures with the shortest interval between the start of the generation
+        and the click by the player.</p>
+
+          <h3>Breeding</h3>
+          <p>After a generation has run its course we need to breed the most successful actors.&nbsp;&nbsp;We take the actors and apply a breeding funtion to them in order to combine portions of their DNA.&nbsp;&nbsp;This is how we create a new collection of actors to be our next generation</p>
+          <p>In our color game example we would take the top half of our actors.&nbsp;&nbsp;Our breed funtion will take 2 actors Breed(actor a1, actor a2). We breed with the top 2 actors A1 and A2 from our trial.&nbsp;&nbsp;They each have attributes R, G, and B.&nbsp;&nbsp;From Breed(A1, A2) could return
+          a new actor with a1.R, a1.G and a2.B.&nbsp;&nbsp;Then we call Breed() a second time switching the role of the parents to Breed(A2, A1).&nbsp;&nbsp;This time we return an actor a2.R, a2.G, a1.B.&nbsp;&nbsp;This gives us 2 new actors to replace the parents in the next generation. We repeat this process with
+          the next 2 actors in the list until we have generated a new population for our next fitness test.</p>
+
+        <h3>Mutation</h3>
+        <p>If all we did is combine the DNA of the most sucessful parents at some point we would have a population that was identical and could no longer change.&nbsp;&nbsp;This means we may never find an optimal result for our actors.&nbsp;&nbsp;This is where mutaion comes in to play.&nbsp;&nbsp;
+           Mutations are a random event set to change an actor's DNA.&nbsp;&nbsp;It is dificult to determine how often you should be mutating your actors.&nbsp;&nbsp;If you do it too frequently you will not close to an optimum result because your actors keep mutating.&nbsp;&nbsp;On the other hand if you don't do it frequently enough it can take
+           a very long time to get a sucessful mutation that breaks you away from where you ahve gotten stuck.
+         </p>
+
+         <p>For our color game we could set it up so every 10 generations there is a 1% chance for a mutation on one of the genes.&nbsp;&nbsp;If the mutation happens we could select a random individual from the collection and change a random gene to a random value.&nbsp;&nbsp;This actor would then enter the population.&nbsp;&nbsp;If they where
+         successful then their new gene value will be added in to the gene pool.&nbsp;&nbsp;If not sucessful it doesn't get the chance to breed and that mutation dies off.</p>
+
+         <p> Next tutorial we will will look at the code for our color game so we can see how it works. </p>
+     </section>
+    </main>
+  </body>
+</html>

@@ -13,27 +13,27 @@
        crossorigin="anonymous">
 
     <link rel="stylesheet"
-     href="../styles/htmlbasics.css"
+     href="../tutorialstyle.css"
      type="text/css">
 
     <link rel="stylesheet"
-       href="../styles/nav.css"
+       href="../../styles/nav.css"
        type="text/css" />
 
   </head>
   <body>
     <nav >
       <ul id='navlist'>
-        <li class='home-button' ><a class='nav-list' href="../index.html"><i class="fa fa-home"></i><div id='home' class= "menu-text ">Home</div></a></li>
-        <li class='gallery-button'><a class='nav-list' href="../gallery.html"><i class="fa fa-image"></i><div id='gallery' class= "menu-text ">Gallery</div></a></li>
-        <li class='tutorials-button'><a class='nav-list' href="../tutorials.html"><i class="fa fa-map"></i><div id='tutorials' class= "menu-text ">Tutorials</div></a></li>
-        <li class='contact-button'><a class='nav-list' href="../contact.html" ><i class="fa fa-envelope"></i><div id='contact' class= "menu-text ">Contact Me</div></a></li>
+        <li class='home-button' ><a class='nav-list' href="../../index.html"><i class="fa fa-home"></i><div id='home' class= "menu-text ">Home</div></a></li>
+        <li class='gallery-button'><a class='nav-list' href="../../gallery.html"><i class="fa fa-image"></i><div id='gallery' class= "menu-text ">Gallery</div></a></li>
+        <li class='tutorials-button'><a class='nav-list' href="../../tutorials.html"><i class="fa fa-map"></i><div id='tutorials' class= "menu-text ">Tutorials</div></a></li>
+        <li class='contact-button'><a class='nav-list' href="../../contact.html" ><i class="fa fa-envelope"></i><div id='contact' class= "menu-text ">Contact Me</div></a></li>
       </ul>
     </nav>
 
     <main>
     <h1>HTML basics</h1>
-    <section>
+    <section class="content">
     <h2>What is HTML?</h2>
       <p>HTML stands for Hypertext Markup Language and it was developed for formatting documents.  It was originally designed to standardize formatting of scientific articles in the early days of the internet.
     </section>
@@ -72,9 +72,9 @@
 
 
 
-    <p>The first line of your file needs the DOCTYPE tag &lt;!DOCTYPE html&gt;.  This tells the browser which version of HTML to expect from the document. <p>
+    <p>The first line of your file needs the DOCTYPE tag &lt;!DOCTYPE html&gt;.  This tells the browser that the document is HTML. <p>
       <p> Next after DOCTYPE comes the opening html tag &lt;html lang=&quot;en&quot;&gt; note that inside the tag we set the language attribute. Many element tags have attributes that we set when we use the opening tag.  We will go over important attributes when learning about element tags.  You are encouraged to research more at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></p>
-      <p> Next we start the document header with the &lt;head&gt; tag.
+      <p> we start the document header with the &lt;head&gt; tag.
       <p> The first element in the header is the meta tag that specifies the character encoding of the page &lt;meta charset=&quot;utf-8&quot;&gt;.  This makes sure the document is displayed correctly.  </p>
       <p> After the meta tag come to the title element &lt;title&gt;.  The text written between the opening and closing title tags will be displayed at the top of the browser when the page is loaded.  In the example above it is simply the word title.  This is also where we use our first closing tag.  The closing tag looks almost exactly like the opening tag but has a / &lt;/title&gt;.
       <p>  That is all we need for the head section of the document.  There are other things that we usually place in the head like links to stylesheets or scripts but we will discuss that when we talk about CSS and JavaScript.  Since we aren't using them here we will use the closing tag &lt;/head&gt; to indicate the head section is finished </p>

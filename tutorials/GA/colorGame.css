@@ -1,0 +1,15 @@
+#timer{
+  font-size: 24;
+
+}
+
+.bug{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  float: left;
+}
+
+.dead{
+  display: none;
+}
